@@ -1,0 +1,18 @@
+@import url("desktop.css") screen and (min-width: 769px);
+@import url("tablet.css") screen and (min-width: 569px) and (max-width: 768px);
+@import url("mobile.css") screen and (max-width: 568px);
+
+a { color: white;
+    text-decoration: none;
+}
+
+#main {
+    background-color: white;
+}
+
+#footer {
+    display: grid;
+    background-color: rgb(138,160,201);
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,41 @@
+#gridContainer {
+    display: block;
+}
+
+body {
+    border: 5px solid black;
+}
+
+#header {
+    background-color: rgb(138,160,201);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 5px solid rgb(138,160,201);
+    color: rgb(4, 4, 103);
+}
+
+h2 {
+    color: rgb(138,160,201);
+}
+
+#nav {
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li { 
+    background-color: rgb(152,175,219);
+    padding: 15px;
+    margin-bottom: 2px;
+}
+
+#img {
+    display: grid;
+    justify-content: center;
+    padding: 20px;
+}

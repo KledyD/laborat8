@@ -1,0 +1,54 @@
+#gridContainer {
+    display: grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 135px auto 50px;
+}
+
+body {
+    border: 5px solid black;
+}
+#header {
+    grid-column: 1/3;
+    background-color: rgb(138,160,201);
+    font-family: Jokerman;
+    background-image: url("../images/lighthouselogo.jpg");
+    background-repeat: no-repeat;
+    font-size: 1.4em;
+}
+
+h1 {
+    margin-left: 150px;
+}
+h2 {
+    color: rgb(138,160,201);
+}
+
+#nav {
+    background-color:  rgb(152,175,219);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul { 
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li { 
+    background-color: pink;
+    padding: 20px;
+    border-bottom: 3px solid white;
+    
+}
+
+#main {
+    display: grid;
+    grid-template-columns: auto 290px;
+}
+
+#text, #img {
+    padding: 20px;
+}
+
+#footer {
+    grid-column: 1/3;
+}
